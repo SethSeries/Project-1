@@ -71,7 +71,7 @@ button {
 	margin-top: 5px;
 	background: white;
 	border: solid;
-	corder-color: red;
+	border-color: red;
 	border-radius: 6px;
 }
 @media (min-width: 650px) {
@@ -83,7 +83,7 @@ button {
 	}
 	.main {
 		flex-direction: row;
-		height: calc(100%-50px);
+		height: calc(100% - 50px);
 	}
 	.info {
 		flex: 30px;
@@ -102,7 +102,7 @@ button {
 	}
 	.main {
 		flex-direction: row;
-		height: calc(100%-50px);
+		height: calc(100% - 50px);
 		padding-right: 15%;
 		padding-left: 10%;
 	}
